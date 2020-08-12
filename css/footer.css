@@ -1,0 +1,24 @@
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding: 16px 25px 0;
+}
+
+.footer__link {
+    margin: 0 7px 0 0;
+    line-height: 18px;
+    text-decoration: none;
+    color: #555;
+}
+
+.footer__copyright {
+    padding: 25px 25px;
+    font-weight: 300;
+}
+
+.footer__copyright::after {
+    content: 'based on Youtube.com';
+    display: block;
+    font-size: 10px;
+}
