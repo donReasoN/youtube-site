@@ -1,3 +1,9 @@
+@media(max-width: 1200px) {
+    .footer--hide {
+        display: none;
+    }
+}
+
 .footer__container {
     display: flex;
     flex-wrap: wrap;
