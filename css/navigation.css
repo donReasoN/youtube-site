@@ -1,8 +1,8 @@
 .navigation {
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
-    height: 60px;
+    padding: 0 16px;
+    height: 56px;
     background-color: #fff;
 }
 
@@ -16,6 +16,12 @@
 
 .navigation__menu {
     margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .navigation__menu {
+        margin-right: 10px;
+    }
 }
 
 .navigation__mainLogo {
@@ -34,6 +40,12 @@
     margin-left: 2px;
 }
 
+@media (max-width: 450px) {
+    .navigation__country {
+        display: none;
+    }
+}
+
 .navigation__searchBox {
     display: flex;
     align-self: center;
@@ -41,6 +53,12 @@
     width: 640px;
     height: 40px;
     margin:  0 40px
+}
+
+@media (max-width: 767px) {
+    .navigation__searchBox {
+        display: none;
+    }
 }
 
 .navigation__input {
@@ -73,6 +91,12 @@
     list-style: none;
 }
 
+@media (max-width: 450px) {
+    .navigation__unorderedList {
+        flex-basis: 80px;
+    }
+}
+
 .navigation__item {
     display: flex;
     align-items: center;
@@ -84,8 +108,22 @@
     cursor: pointer;
 }
 
-.navigation__button--hide {
+.navigation__item--hideSearch {
     display: none;
+}
+
+@media (max-width: 767px) {
+    .navigation__item--hideSearch {
+        display: flex;
+    }
+}
+
+@media (max-width: 450px) { 
+    .navigation__item--hideVideo, 
+    .navigation__item--hideGrid,
+    .navigation__item--hideBell {
+        display: none;
+    }
 }
 
 .navigation__icon {
