@@ -1,0 +1,10 @@
+.channel {
+    flex-basis: 100%;
+}
+
+.channel__imageContainer {
+    height: 14vw;
+    background-image: url(../images/earth.jpg);
+    background-size: cover;
+    background-position: center;
+}
