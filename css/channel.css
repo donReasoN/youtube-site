@@ -2,6 +2,10 @@
     flex-basis: 100%;
 }
 
+.channel__header {
+    background-color: #eee;
+}
+
 .channel__imageContainer {
     height: 14vw;
     background-image: url(../images/earth.jpg);
@@ -18,7 +22,7 @@
     display: flex;
     align-items: center;
     max-width: 1284px;
-    margin: 0 auto;
+    margin: 8px auto;
 }
 
 .channel__avatar {
@@ -55,3 +59,40 @@
 }
 
 
+.channel__navigation {
+    margin: 0 auto;
+    max-width: 1284px;
+}
+
+.channel__list {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.channel__item {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 45px;
+    padding: 0 30px;
+    color: #555;
+}
+
+.channel__button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #555;
+}
+
+.channel__item--active {
+    border-bottom: 3px solid #555;
+}
+
+.channel__item--hide {
+    display: none;
+}

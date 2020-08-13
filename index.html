@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/channel.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="body">
     <nav class="navigation">
@@ -64,7 +65,6 @@
     </nav>
 
     <div class="container">
-
         <aside class="aside">
 
             <ul class="aside__section">     
@@ -274,8 +274,47 @@
                             </div>
                             <button class="channel__subscribeButton">Subscribe</button>
                         </div>
+                        
+                        <nav class="channel__navigation">
+                            <ul class="channel__list">
+                                <li class="channel__item channel__item--hide">
+                                    <button class="channel__button fas fa-angle-left"></button>
+                                </li>
+                                <li class="channel__item channel__item--active">
+                                    <span class="channel__itemText">home</span>
+                                </li>
+                                <li class="channel__item">
+                                    <span class="channel__itemText">videos</span>
+                                </li>
+                                <li class="channel__item">
+                                    <span class="channel__itemText">playlists</span>
+                                </li>
+                                <li class="channel__item">
+                                    <span class="channel__itemText">community</span>
+                                </li>
+                                <li class="channel__item">
+                                    <span class="channel__itemText">channels</span>
+                                </li>
+                                <li class="channel__item">
+                                    <span class="channel__itemText">about</span>
+                                </li>
+                                <li class="channel__item">
+                                    <span class="channel__itemText fas fa-search"></span>
+                                </li>
+                                <li class="channel__item channel__item--hide">
+                                    <button class="channel__button fas fa-angle-right"></button>
+                                </li>
+                            </ul>
+                        </nav>
+
                     </div>
             </header>
+            <main class="main">
+                <div class="main__container">
+                    <section class="main__content"></section>
+                    <aside class="main__aside"></aside>
+                </div>
+            </main>
         </section>
     </div>
 </body>
