@@ -1,9 +1,5 @@
 .channel {
-    flex-basis: 100%;
-}
-
-.channel__header {
-    background-color: #eee;
+    background-color: #ddd;
 }
 
 .channel__imageContainer {
@@ -14,22 +10,18 @@
 }
 
 .channel__wrapper {
-    max-width: 1652px;
-    padding: 16px 100px 4px;
+    padding: 16px 110px 5px;
 }
 
 .channel__details {
+    max-width: 1284px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    max-width: 1284px;
-    margin: 8px auto;
 }
 
 .channel__avatar {
-    width: 80px;
-    height: 80px;
     border-radius: 50%;
-    background-color: #555;
     margin-right: 20px;
 }
 
@@ -42,57 +34,18 @@
 .channel__name {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 5px;
 }
 
 .channel__subscription {
     font-size: 14px;
+    margin-top: 5px;
 }
 
 .channel__subscribeButton {
-    padding: 10px 21px;
-    text-transform: uppercase;
-    background-color: rgb(199, 14, 14);
+    padding: 10px 16px;
     border: none;
+    background-color: rgb(216, 25, 25);
     color: #fff;
-    font-size: 14px;
-}
-
-
-.channel__navigation {
-    margin: 0 auto;
-    max-width: 1284px;
-}
-
-.channel__list {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.channel__item {
-    display: flex;
-    align-items: center;
     text-transform: uppercase;
-    font-size: 14px;
-    height: 45px;
-    padding: 0 30px;
-    color: #555;
-}
-
-.channel__button {
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    color: #555;
-}
-
-.channel__item--active {
-    border-bottom: 3px solid #555;
-}
-
-.channel__item--hide {
-    display: none;
+    font-size: 13px;
 }
